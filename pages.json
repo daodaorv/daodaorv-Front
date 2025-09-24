@@ -1,0 +1,278 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/mall/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/customer/index",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/search/global-search",
+			"style": {
+				"navigationBarTitleText": "全局搜索",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vehicle/vehicle-list",
+			"style": {
+				"navigationBarTitleText": "可用房车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vehicle/vehicle-detail",
+			"style": {
+				"navigationBarTitleText": "房车详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vehicle/vehicle-booking",
+			"style": {
+				"navigationBarTitleText": "预订信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment/index",
+			"style": {
+				"navigationBarTitleText": "安全支付",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment/success",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"navigationStyle": "custom",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/order/detail-vehicle",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/order-list",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/special-rental/special-routes",
+			"style": {
+				"navigationBarTitleText": "特惠路线",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/special-rental/special-route-detail",
+			"style": {
+				"navigationBarTitleText": "路线详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/special-rental/date-selector",
+			"style": {
+				"navigationBarTitleText": "选择日期",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/confirm-special",
+			"style": {
+				"navigationBarTitleText": "提交行程",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/camp/camp-list",
+			"style": {
+				"navigationBarTitleText": "营地列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/camp/camp-detail",
+			"style": {
+				"navigationBarTitleText": "营地详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/camp/camp-booking",
+			"style": {
+				"navigationBarTitleText": "营地预订",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tour/province-routes",
+			"style": {
+				"navigationBarTitleText": "省份路线",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tour/tour-route-detail",
+			"style": {
+				"navigationBarTitleText": "路线详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tour/route-booking",
+			"style": {
+				"navigationBarTitleText": "预订路线",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tour/custom-request",
+			"style": {
+				"navigationBarTitleText": "定制需求",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/content-detail",
+			"style": {
+				"navigationBarTitleText": "内容详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/publish",
+			"style": {
+				"navigationBarTitleText": "发布内容",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/coupons",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/owner/owner-center",
+			"style": {
+				"navigationBarTitleText": "车主中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/rv-shop",
+			"style": {
+				"navigationBarTitleText": "房车商城",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contract/sign",
+			"style": {
+				"navigationBarTitleText": "合同签署",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "叨叨房车",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F7F7F7",
+		"app-plus": {
+			"background": "#F7F7F7"
+		}
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF6B35",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/community/index",
+				"iconPath": "static/tabbar/community.png",
+				"selectedIconPath": "static/tabbar/community-active.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/mall/index",
+				"iconPath": "static/tabbar/mall.png",
+				"selectedIconPath": "static/tabbar/mall-active.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/customer/index",
+				"iconPath": "static/tabbar/customer.png",
+				"selectedIconPath": "static/tabbar/customer-active.png",
+				"text": "客服"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
