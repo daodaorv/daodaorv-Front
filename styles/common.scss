@@ -1,0 +1,354 @@
+/* 叨叨房车小程序 全局通用样式 */
+/* common.scss */
+
+/* 
+  在此处定义全局通用的CSS类、辅助类 (如 .flex-center)、必要的reset样式等。
+  可以直接使用 uni.scss 中已定义的 $dd-* 变量。
+  例如：
+  .text-primary {
+    color: $dd-primary;
+  }
+  .bg-white {
+    background-color: $dd-white;
+  }
+*/
+
+/* 布局辅助类 */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* 文本辅助类 */
+.text-primary {
+  color: $dd-primary;
+}
+
+.text-success {
+  color: $dd-success;
+}
+
+.text-warning {
+  color: $dd-warning;
+}
+
+.text-danger {
+  color: $dd-danger;
+}
+
+.text-dark {
+  color: $dd-text-dark;
+}
+
+.text-medium {
+  color: $dd-text-medium;
+}
+
+.text-light {
+  color: $dd-text-light;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* 背景辅助类 */
+.bg-white {
+  background-color: $dd-white;
+}
+
+.bg-primary {
+  background-color: $dd-primary;
+}
+
+.bg-success {
+  background-color: $dd-success;
+}
+
+.bg-warning {
+  background-color: $dd-warning;
+}
+
+.bg-danger {
+  background-color: $dd-danger;
+}
+
+.bg-background {
+  background-color: $dd-background;
+}
+
+/* 边框辅助类 */
+.border {
+  border: 1rpx solid $dd-border;
+}
+
+.border-top {
+  border-top: 1rpx solid $dd-border;
+}
+
+.border-bottom {
+  border-bottom: 1rpx solid $dd-border;
+}
+
+.border-left {
+  border-left: 1rpx solid $dd-border;
+}
+
+.border-right {
+  border-right: 1rpx solid $dd-border;
+}
+
+/* 圆角辅助类 */
+.rounded-xs {
+  border-radius: $dd-radius-xs;
+}
+
+.rounded-sm {
+  border-radius: $dd-radius-sm;
+}
+
+.rounded-md {
+  border-radius: $dd-radius-md;
+}
+
+.rounded-lg {
+  border-radius: $dd-radius-lg;
+}
+
+.rounded-pill {
+  border-radius: $dd-radius-pill;
+}
+
+.rounded-circle {
+  border-radius: $dd-radius-circle;
+}
+
+/* 间距辅助类 */
+.m-0 { margin: 0; }
+.mt-0 { margin-top: 0; }
+.mr-0 { margin-right: 0; }
+.mb-0 { margin-bottom: 0; }
+.ml-0 { margin-left: 0; }
+
+.m-xs { margin: $dd-spacing-xs; }
+.mt-xs { margin-top: $dd-spacing-xs; }
+.mr-xs { margin-right: $dd-spacing-xs; }
+.mb-xs { margin-bottom: $dd-spacing-xs; }
+.ml-xs { margin-left: $dd-spacing-xs; }
+
+.m-sm { margin: $dd-spacing-sm; }
+.mt-sm { margin-top: $dd-spacing-sm; }
+.mr-sm { margin-right: $dd-spacing-sm; }
+.mb-sm { margin-bottom: $dd-spacing-sm; }
+.ml-sm { margin-left: $dd-spacing-sm; }
+
+.m-md { margin: $dd-spacing-md; }
+.mt-md { margin-top: $dd-spacing-md; }
+.mr-md { margin-right: $dd-spacing-md; }
+.mb-md { margin-bottom: $dd-spacing-md; }
+.ml-md { margin-left: $dd-spacing-md; }
+
+.m-lg { margin: $dd-spacing-lg; }
+.mt-lg { margin-top: $dd-spacing-lg; }
+.mr-lg { margin-right: $dd-spacing-lg; }
+.mb-lg { margin-bottom: $dd-spacing-lg; }
+.ml-lg { margin-left: $dd-spacing-lg; }
+
+.p-0 { padding: 0; }
+.pt-0 { padding-top: 0; }
+.pr-0 { padding-right: 0; }
+.pb-0 { padding-bottom: 0; }
+.pl-0 { padding-left: 0; }
+
+.p-xs { padding: $dd-spacing-xs; }
+.pt-xs { padding-top: $dd-spacing-xs; }
+.pr-xs { padding-right: $dd-spacing-xs; }
+.pb-xs { padding-bottom: $dd-spacing-xs; }
+.pl-xs { padding-left: $dd-spacing-xs; }
+
+.p-sm { padding: $dd-spacing-sm; }
+.pt-sm { padding-top: $dd-spacing-sm; }
+.pr-sm { padding-right: $dd-spacing-sm; }
+.pb-sm { padding-bottom: $dd-spacing-sm; }
+.pl-sm { padding-left: $dd-spacing-sm; }
+
+.p-md { padding: $dd-spacing-md; }
+.pt-md { padding-top: $dd-spacing-md; }
+.pr-md { padding-right: $dd-spacing-md; }
+.pb-md { padding-bottom: $dd-spacing-md; }
+.pl-md { padding-left: $dd-spacing-md; }
+
+.p-lg { padding: $dd-spacing-lg; }
+.pt-lg { padding-top: $dd-spacing-lg; }
+.pr-lg { padding-right: $dd-spacing-lg; }
+.pb-lg { padding-bottom: $dd-spacing-lg; }
+.pl-lg { padding-left: $dd-spacing-lg; }
+
+/* 阴影辅助类 */
+.shadow-sm {
+  box-shadow: $dd-shadow-sm;
+}
+
+.shadow-md {
+  box-shadow: $dd-shadow-md;
+}
+
+.shadow-lg {
+  box-shadow: $dd-shadow-lg;
+}
+
+/* 字体辅助类 */
+.font-xs {
+  font-size: $dd-font-size-xs;
+}
+
+.font-sm {
+  font-size: $dd-font-size-sm;
+}
+
+.font-md {
+  font-size: $dd-font-size-md;
+}
+
+.font-lg {
+  font-size: $dd-font-size-lg;
+}
+
+.font-xl {
+  font-size: $dd-font-size-xl;
+}
+
+.font-xxl {
+  font-size: $dd-font-size-xxl;
+}
+
+.font-regular {
+  font-weight: $dd-font-weight-regular;
+}
+
+.font-medium {
+  font-weight: $dd-font-weight-medium;
+}
+
+.font-bold {
+  font-weight: $dd-font-weight-bold;
+}
+
+/* 其他辅助类 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+/* 动画类 */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* 过渡动画辅助类 */
+.transition-all {
+  transition: all $dd-transition-duration $dd-transition-timing-function;
+}
+
+.transition-fast {
+  transition: all $dd-transition-fast $dd-transition-timing-function;
+}
+
+.transition-slow {
+  transition: all $dd-transition-slow $dd-transition-timing-function;
+}
+
+.transition-opacity {
+  transition: opacity $dd-transition-duration $dd-transition-timing-function;
+}
+
+.transition-transform {
+  transition: transform $dd-transition-duration $dd-transition-timing-function;
+}
